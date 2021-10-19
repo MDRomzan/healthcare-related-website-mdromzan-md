@@ -4,6 +4,7 @@ import './App.css';
 import AuthProvider from './contexts/AuthProvider';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home/Home';
 
@@ -37,13 +38,11 @@ function App() {
         <Route exact path="/register">
           <Register></Register>
         </Route>
-        
-        
-        
         <Route exact path="*">
           <NotFound></NotFound>
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
     </AuthProvider>
     
