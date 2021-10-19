@@ -18,7 +18,7 @@ const Register = () => {
 
     } = useAuth();
     return (
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mb-5 mt-5">
             <div>
 
 
@@ -53,7 +53,7 @@ const Register = () => {
          value = "Reset Password" />
 </Form> 
 <br />
-<button onClick={googleSignInAuth} className="">GoogleSignIn</button>
+<button  onClick={googleSignInAuth} className="">GoogleSignIn</button>
 <button onClick={githubSignInAuth} className="">GitHubSignIn</button>
 </div>
 

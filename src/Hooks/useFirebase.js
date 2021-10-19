@@ -173,6 +173,8 @@ const logout=()=>{
         handleResetPassword,
         handleNameChange,
         isLogin,
+        setError,
+        setUser,
         error,
         name,
         

@@ -3,7 +3,7 @@
         "key":"10",
         "name": "Dr.Mahamaya Rural",
         "specilist": "Pediatric Care",
-        "img": "https://t3.ftcdn.net/jpg/02/59/40/22/240_F_259402238_orIpVBMpgo0DIow1C4MbwKgDIIJSkSkO.jpg",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9EETBBjeaVQtwutbla0rtWLNVMgTIhX1kRg&usqp=CAU",
         "rating":"4.2",
         "review":"234"
     },
@@ -11,7 +11,7 @@
             "key": "11",
             "name": "Dr.De Silva",
             "specilist": "Gynecology Care",
-            "img": "https://t3.ftcdn.net/jpg/01/40/61/52/240_F_140615215_wsTRBfxELt9m8ivoxNsd25HYPZJ2lbUX.jpg",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiGDnWmuRrP4yKDFFRzhvomKwvWtxljMyn7Q&usqp=CAU",
             "rating": "5",
             "review": "534"
         },
@@ -19,7 +19,7 @@
                 "key": "12",
                 "name": "Dr.Thomas Hames",
                 "specilist": "Cardio Care",
-                "img": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?size=338&ext=jpg",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEL8QuXm12oY50Yat0M9VuLQx78PY-RgOUxQ&usqp=CAU",
                 "rating": "4",
                 "review": "353"
             },
@@ -27,7 +27,7 @@
                     "key": "13",
                     "name": "Dr.Angle Mario",
                     "specilist": "Nephrology Care",
-                    "img": "https://t3.ftcdn.net/jpg/01/69/08/80/240_F_169088010_XvtsmLpnuUapDcOKvTTM6EodrEmUM9Mk.jpg",
+                    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqfL4YAfIILnlioc7UfJI8qWAUpb_uUFIRbg&usqp=CAU",
                     "rating": "5",
                     "review": "524"
                 }
