@@ -53,8 +53,8 @@ const Register = () => {
          value = "Reset Password" />
 </Form> 
 <br />
-<button  onClick={googleSignInAuth} className="">GoogleSignIn</button>
-<button onClick={githubSignInAuth} className="">GitHubSignIn</button>
+<button onClick={googleSignInAuth} className="btn-button">GoogleSignIn</button>
+<button onClick={githubSignInAuth} className="btn-contact">GitHubSignIn</button>
 </div>
 
 </div>

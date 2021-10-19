@@ -32,24 +32,27 @@ const useFirebase=()=>{
 
        // google sign in
     const googleSignInAuth=()=>{
+        setLoading(true)
         signInWithPopup(auth, googleProvider)
         .then(result=>{
             // console.log(result.user);
             
             setUser(result.user)
         })
+        .finally(()=>setLoading(false))
         .catch(error=>{
             setError(error.message);
         })
     }
     // github sign in
     const githubSignInAuth=()=>{
-        
+         setLoading(true)
        signInWithPopup(auth, githubProvider)
        .then(result=>{
            console.log(result.user)
             setUser(result.user)
        })
+       .finally(() => setLoading(false))
        .catch(error => {  
         setError(error.message);
        })
@@ -83,6 +86,7 @@ const handleNameChange=(e)=>{
 
     // handle login 
     const handleRegister=(e)=>{
+        setLoading(true)
         console.log(email,password)
         e.preventDefault();
         if(password.length<6){
@@ -140,6 +144,7 @@ const handleNameChange=(e)=>{
 
 
 const logout=()=>{
+    setLoading(true)
     signOut(auth).then(() => {
         
     })
@@ -158,6 +163,7 @@ const logout=()=>{
   } else {
     setUser({})
   }
+  setLoading(false)
 });
     return ()=> unSubscribe;
 },[])
@@ -172,6 +178,7 @@ const logout=()=>{
         toggleLogin,
         handleResetPassword,
         handleNameChange,
+        isloading,
         isLogin,
         setError,
         setUser,

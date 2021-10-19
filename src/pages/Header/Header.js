@@ -12,8 +12,10 @@ const Header = () => {
           <>
   <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">
-        <img className="img-size" src={logo} alt="Health care" /> 
+    <Navbar.Brand href="#home/home">
+        <img className="img-size" src={logo} alt="Health care" />
+
+        RD Medical Center
     </Navbar.Brand>
      <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
