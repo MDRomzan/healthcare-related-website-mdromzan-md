@@ -1,23 +1,19 @@
-.contact-us {
-    margin: 50px 30px;
-
+.contact-us{
+    margin:50px 30px;
+    
 }
-
-.contact {
-    border: 1px solid gray;
-    padding: 5px;
+.contact{
+    border:1px solid gray;
+    padding:5px ;
     border-radius: 10px;
 }
-
-.phone-p {
+.phone-p{
     background-color: rgb(238, 152, 195);
 }
-
-.address {
+.address{
     background-color: rgb(211, 243, 178);
 
 }
-
-.email {
+.email{
     background-color: rgb(235, 235, 145);
 }

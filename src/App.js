@@ -4,6 +4,8 @@ import './App.css';
 import AuthProvider from './contexts/AuthProvider';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+
+import Details from './pages/Details/Details';
 import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home/Home';
@@ -28,13 +30,19 @@ function App() {
         <Route exact path="/services">
           <Services></Services>
         </Route>
+        <Route exact path="/details/:serviceId">
+          <Details/>
+        </Route>
+
+         <Route path="/contact">
+          <Contact/>
+        </Route>
+        
         
          <Route path="/about">
           <About/>
         </Route>
-         <Route path="/contact">
-          <Contact></Contact>
-        </Route>
+        
         <Route exact path="/register">
           <Register></Register>
         </Route>

@@ -16,7 +16,7 @@ const Doctors = () => {
 
         
         <div>
-            <div className="container">
+            <div className="container mt-5 mb-5">
                  <h1 className="text-center text">Our Specialist Doctors</h1>
                  <div className="row">
                      {

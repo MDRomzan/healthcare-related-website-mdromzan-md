@@ -1,0 +1,10 @@
+.size-dom{
+    width:350px;
+    height:auto;
+}
+@media only screen and (max-width: 600px){
+    .size-dom {
+        width: 200px;
+        height: auto;
+    }
+}
