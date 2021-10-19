@@ -9,7 +9,7 @@ const HomeService = ({homeService}) => {
             <h3>{name}</h3>
             <p>{dec}</p>
             <Link to={`/details/${key}`}>
-                <button className="btn-details">View Details</button>
+                <button className="btn-details ">View Details</button>
             </Link>
             
             
