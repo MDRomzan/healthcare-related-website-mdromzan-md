@@ -1,0 +1,23 @@
+[
+     {
+         "key": "01",
+         "name": "Pediatric Care",
+         "dec": "Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro voluptatem sequi nesciunt",
+         "img": "https://t3.ftcdn.net/jpg/02/59/40/22/240_F_259402238_orIpVBMpgo0DIow1C4MbwKgDIIJSkSkO.jpg"
+     }, {
+         "key": "02",
+         "name": "Gynecology Care",
+         "dec": "For gynecologic care, a woman should choose a health care practitioner with whom she can comfortably .",
+         "img": "https://t3.ftcdn.net/jpg/01/40/61/52/240_F_140615215_wsTRBfxELt9m8ivoxNsd25HYPZJ2lbUX.jpg"
+     }, {
+         "key": "03",
+         "name": "Cardio Care",
+         "dec": "Cardiology is the study and treatment of disorders of the heart and the blood vessels.A person with heart disease or cardiovascular .",
+         "img": "https://as1.ftcdn.net/v2/jpg/01/65/87/36/1000_F_165873671_xj6QnIC2O7Jpt0gF28Yb4rzgAVmsyJSm.jpg"
+     }, {
+         "key": "04",
+         "name": "Nephrology Care",
+         "dec": " Nephrologists are medical professionals who diagnose, treat, and manage acute and chronic kidney problems and diseases.",
+         "img": "https://t3.ftcdn.net/jpg/01/69/08/80/240_F_169088010_XvtsmLpnuUapDcOKvTTM6EodrEmUM9Mk.jpg"
+     }
+]

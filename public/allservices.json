@@ -1,0 +1,56 @@
+[
+    {
+        "key":"01",
+        "name": "Pediatric Care",
+        "dec":"Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro voluptatem sequi nesciunt",
+        "img": "https://t3.ftcdn.net/jpg/02/59/40/22/240_F_259402238_orIpVBMpgo0DIow1C4MbwKgDIIJSkSkO.jpg"
+    },
+    {
+        "key": "02",
+        "name": "Gynecology Care",
+        "dec": "For gynecologic care, a woman should choose a health care practitioner with whom she can comfortably .",
+        "img": "https://t3.ftcdn.net/jpg/01/40/61/52/240_F_140615215_wsTRBfxELt9m8ivoxNsd25HYPZJ2lbUX.jpg"
+    },
+    {
+        "key": "03",
+        "name": "Cardio Care",
+        "dec": "Cardiology is the study and treatment of disorders of the heart and the blood vessels.A person with heart disease or cardiovascular .",
+        "img": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?size=338&ext=jpg"
+    },
+    {
+        "key": "04",
+        "name": "Nephrology Care",
+        "dec": " Nephrologists are medical professionals who diagnose, treat, and manage acute and chronic kidney problems and diseases.",
+        "img": "https://t3.ftcdn.net/jpg/01/69/08/80/240_F_169088010_XvtsmLpnuUapDcOKvTTM6EodrEmUM9Mk.jpg"
+    },
+    {
+        "key": "05",
+        "name": "Dental Care",
+        "dec": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean.",
+        "img": "https://img.freepik.com/free-photo/dentist-examining-female-patient-teeth_107420-65309.jpg?size=338&ext=jpg"
+    },
+    {
+        "key": "06",
+        "name": "Hematology Care",
+        "dec": "Hematology is a branch of medicine concerned with the study of blood, blood disease and the organs involved in forming blood.",
+        "img": "https://image.freepik.com/free-vector/red-blood-cells-flowing-background_1017-17842.jpg"
+    },
+    {
+        "key": "07",
+        "name": "Cancerlogy",
+        "dec": "Cancer develops when the body's normal control mechanism stops working",
+        "img": "https://t4.ftcdn.net/jpg/02/93/58/47/240_F_293584799_wgcZ9SRCpHC5fXTAL2eytD32i9hW7wBu.jpg"
+    },
+    {
+        "key": "08",
+        "name": "Diabetes",
+        "dec": "Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.",
+        "img": "https://t3.ftcdn.net/jpg/01/18/02/68/240_F_118026812_15utVtzu1WTT0klYIz2ylTwCvlNqhzRZ.jpg"
+    },
+    {
+        "key": "09",
+        "name": "Influenza and pneumonia",
+        "dec": "Influenza (flu) is a highly contagious viral infection that is one of the most severe illnesses of the winter season.",
+        "img": "https://as2.ftcdn.net/v2/jpg/02/17/27/47/1000_F_217274743_DXPRUUjHPKHkl5Powuwr7SlTzAJoPbwT.jpg"
+    }
+]
