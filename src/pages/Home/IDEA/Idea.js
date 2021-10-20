@@ -6,17 +6,15 @@ import pic3 from "../../../images/pic3.jpeg"
 
 const Idea = () => {
     return (
-        
-       <CardGroup>
-       
-  <Card>
+       <CardGroup className="text-center mx-5 rounded-3" >
+  <Card >
     <Card.Img variant="top" src={pic1} />
     <Card.Body>
-      <Card.Title>Neatual Maehies</Card.Title>
+      <Card.Title> Neatual Maehies</Card.Title>
       <Card.Text>
           High Quality Medical Instrument with Competitive Price.China’ s 
         This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        additional content. This content is a little bit longer.{"'"}
       </Card.Text>
     </Card.Body>
    
@@ -28,15 +26,13 @@ const Idea = () => {
       <Card.Text>
         This card has supporting text below as a natural technology, Solutions
         for various oxygen concentrators.No.1 Korean manufacture
-        for Medical oxygen concentrator. {
-            ' '
-        }
+        for Medical oxygen concentrator. 
       </Card.Text>
     </Card.Body>
     
   </Card>
   <Card>
-    <Card.Img variant="top" src={pic3}/>
+    <Card.Img className=" img-fluid" variant="top" src={pic3}/>
     <Card.Body>
       <Card.Title>Labortory Maehines</Card.Title>
       <Card.Text>
