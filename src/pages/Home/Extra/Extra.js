@@ -5,8 +5,8 @@ const Extra = () => {
     return (
         <div>
            <div className=" container row d-flex justify-content-center ms-5 ">
-               <div className="col-lg-8 col-sm-12">
-                    <img className="size-dom" src={female} alt="" />
+               <div className="col-lg-8 col-sm-12 ">
+                    <img className="size-dom shadow-lg rounded-circle " src={female} alt="" />
                </div>
                <div className="col-lg-4 col-sm-12">
                    <h1>Best Service Medical</h1>

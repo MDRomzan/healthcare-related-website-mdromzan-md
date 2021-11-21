@@ -65,3 +65,4 @@ const Banner = () => {
 };
 
 export default Banner;
+// try your banner update

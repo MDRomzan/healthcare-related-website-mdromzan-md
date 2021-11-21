@@ -2,8 +2,38 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import useAuth from '../../Hooks/useAuth';
+import { useHistory, useLocation } from 'react-router-dom';
 
 const Register = () => {
+    const location=useLocation();
+    const history=useHistory();
+    const redirect_url=location.state?.from || "/services"
+    console.log()
+    const handleGoogleSignIn=()=>{
+        googleSignInAuth()
+        .then(result => {
+                // console.log(result.user);
+                history.push(redirect_url);
+                setUser(result.user)
+            })
+            .finally(() => setLoading(false))
+            .catch(error => {
+                setError(error.message);
+            })
+    }
+    const handleRegisterFrom=()=>{
+        handleRegister()
+        .then(result => {
+                history.push(redirect_url);
+                const user = result.user
+                setUser(result.user);
+                setError("")
+                console.log(user)
+            })
+            .catch(error => {
+                setError(error.message)
+            })
+    }
     const {
         googleSignInAuth,
         githubSignInAuth,
@@ -14,15 +44,20 @@ const Register = () => {
         isLogin,
         handleResetPassword,
         handleNameChange,
-        error
+        error,
+        setLoading,
+        setError,
+        setUser,
+        
 
     } = useAuth();
+   
     return (
         <div className="d-flex justify-content-center mb-5 mt-5">
             <div>
 
 
-    <Form onSubmit={handleRegister}>
+    <Form onSubmit={handleRegisterFrom}>
         <h2 className="text">Please {isLogin? "Login": "Register" } </h2>
 
            {! isLogin&& <Form.Group className="mb-3" controlId="formGridName">
@@ -53,7 +88,7 @@ const Register = () => {
          value = "Reset Password" />
 </Form> 
 <br />
-<button onClick={googleSignInAuth} className="btn-button">GoogleSignIn</button>
+<button onClick={handleGoogleSignIn} className="btn-button">GoogleSignIn</button>
 <button onClick={githubSignInAuth} className="btn-contact">GitHubSignIn</button>
 </div>
 

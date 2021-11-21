@@ -33,16 +33,8 @@ const useFirebase=()=>{
        // google sign in
     const googleSignInAuth=()=>{
         setLoading(true)
-        signInWithPopup(auth, googleProvider)
-        .then(result=>{
-            // console.log(result.user);
-            
-            setUser(result.user)
-        })
-        .finally(()=>setLoading(false))
-        .catch(error=>{
-            setError(error.message);
-        })
+        return signInWithPopup(auth, googleProvider)
+        
     }
     // github sign in
     const githubSignInAuth=()=>{
@@ -106,15 +98,8 @@ const handleNameChange=(e)=>{
         
     }
     const processLogin=(email,password)=>{
-        signInWithEmailAndPassword(auth,email,password)
-        .then(result=>{
-            const user=result.
-            setError("")
-             console.log(user)
-        })
-        .catch(error=>{
-            setError(error.message)
-        })
+        return signInWithEmailAndPassword(auth,email,password)
+        
     }
 
     const registerNewUser=(email,password)=>{
@@ -150,7 +135,7 @@ const logout=()=>{
     })
     .finally(()=>setLoading(false))
     .catch((error) => {
-        setUser(error.message)
+        setError(error.message)
     });
 
 }
@@ -180,10 +165,11 @@ const logout=()=>{
         handleNameChange,
         isloading,
         isLogin,
+        setLoading,
         setError,
         setUser,
         error,
-        name,
+        
         
 
     }
